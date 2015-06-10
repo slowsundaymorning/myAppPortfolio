@@ -1,0 +1,26 @@
+<resources>
+    <!-- app title -->
+    <string name="app_name">My App Portfolio</string>
+    <!-- page title -->
+    <string name="main_title">My Nanodegree Apps!</string>
+
+    <!-- button texts -->
+    <string name="spotify_launch_btn">SPOTIFY STREAMER</string>
+    <string name="scores_launch_btn">SCORE APP</string>
+    <string name="library_launch_btn">LIBRARY APP</string>
+    <string name="build_it_bigger_launch_btn">BUILD IT BIGGER</string>
+    <string name="bacon_reader_launch_btn">BACON READER</string>
+    <string name="capstone_launch_btn">CAPSTONE: MY OWN APP</string>
+
+    <!-- toast texts -->
+    <string name="common_toast_txt">This button will launch </string>
+    <string name="spotify_toast_txt">Spotify Streamer!</string>
+    <string name="scores_toast_txt">Score App!</string>
+    <string name="library_toast_txt">Library App!</string>
+    <string name="build_it_bigger_toast_txt">Build it Bigger!</string>
+    <string name="bacon_reader_toast_txt">Bacon Reader!</string>
+    <string name="capstone_toast_txt">Capstone!</string>
+
+    <!-- menu -->
+    <string name="action_settings">Settings</string>
+</resources>
