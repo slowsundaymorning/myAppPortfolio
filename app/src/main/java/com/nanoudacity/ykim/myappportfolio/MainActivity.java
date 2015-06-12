@@ -72,9 +72,13 @@ public class MainActivity extends Activity {
         });
     }
 
+    private static Toast myToast;
     private void showToast(String textToShow) {
+        if(myToast != null)
+            myToast.cancel();
         CharSequence text = getString(R.string.common_toast_txt) +" "+ textToShow;
-        Toast.makeText(getApplicationContext(), text, Toast.LENGTH_SHORT).show();
+        myToast = Toast.makeText(getApplicationContext(), text, Toast.LENGTH_SHORT);
+        myToast.show();
     }
 
     @Override
